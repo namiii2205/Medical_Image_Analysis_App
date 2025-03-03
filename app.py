@@ -32,7 +32,7 @@ with col2:
             files = {"image": buffered.getvalue()}
             data = {"language": language} if version == "3" else {}
 
-            api_url = f"https://13fa-2001-ee0-4b78-1dd0-679e-cefc-b7a8-a75a.ngrok-free.app/version-{version}"
+            api_url = f"https://7226-2001-ee0-4b7b-e890-5744-bcd7-7a3f-c44d.ngrok-free.app/version-{version}"
             response = requests.post(api_url, files=files, data=data)
 
             if response.status_code == 200:
