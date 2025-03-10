@@ -19,7 +19,7 @@ with col1:
     uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
     version = st.selectbox("Select API version", ["1", "2", "3"])
     if version == "3":
-        language = st.selectbox("Select language", ["English", "Vietnamese", "French"])
+        language = st.selectbox("Select language", ["English", "Vietnamese", "French", "Russian", "Japanese", "Korean"])
     submit = st.button("Submit")
 
 with col2:
